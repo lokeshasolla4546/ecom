@@ -9,9 +9,9 @@ node flash.js
 http://localhost:5000
 
 # Tech Stack
-Node.js
-express.js
-MOCK Database
+Node.js,
+express.js,
+MOCK Database,
 Postman
 
 # Endpoints
