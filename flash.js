@@ -22,7 +22,7 @@ const carts = {};
 //  UTILITIES 
 const mockPayment = () => 'Success';
 
-//  MIDDLEWARE 
+//  AUTHENTICATION CHECK
 const authenticate = (req, res, next) => {
   const { user_id } = req.headers;
   const user = users.find(u => u.user_id === user_id);
