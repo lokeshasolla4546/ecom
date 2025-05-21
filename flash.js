@@ -103,7 +103,7 @@ app.post('/api/orders', authenticate, (req, res) => {
     createdAt: new Date()
   };
   orders.push(order);
-  carts[userId] = []; // clear cart
+  carts[userId] = [];
   res.status(201).json({ message: 'Order placed', order });
 });
 
