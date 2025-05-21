@@ -3,8 +3,8 @@ This is a simple backend app where users can register, login, view products, man
 
 # How to Run
 npm install  
-node flash.js
-(flash is my server name)
+node arrow.js
+(arrow is my server name)
 # Server
 http://localhost:5000
 
